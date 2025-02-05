@@ -16,6 +16,7 @@ public class ArraySum {
       for( int j = i+1 ;  j < n ; j++ ){
          if ((arr[i]+arr[j]) == 7 ){
            System.out.println("No is : "+arr[i]+" "+arr[j]);
+           
          }
       }
    }    
