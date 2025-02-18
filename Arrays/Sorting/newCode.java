@@ -5,14 +5,16 @@ class Main {
     static void merge(int l, int mid, int r,int[] arr){
         int n1 = mid-l+1 ;
         int n2 = r-mid;
+        printArr(arr);
         int[] arr1 = new int[n1];
         int[] arr2 = new int[n2];
         for(int i = 0 ; i<n1 ; i++){ 
             arr1[i] = arr[l+i];
         }
         for(int i = 0 ;i< n1 ; i++){
-            System.out.print(arr1[i] + "");
+            System.out.print(arr1[i] + " ");
         }
+        System.out.println();
         for(int j = 0 ; j<n2 ; j++){ 
             arr2[j] = arr[mid+1+j];
         }
@@ -41,7 +43,6 @@ class Main {
         }
         System.out.println();
     }
-    
    static void mergeSort(int l , int r, int[]arr){
         // Base Case
         if(l >= r){ 

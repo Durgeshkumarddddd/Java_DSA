@@ -12,7 +12,7 @@
    public static int kthSmallest(int []arr, int k ){
         
         for(int i = 1 ; i < k ; i++){
-            arr[i] = smallval(arr);
+             = smallval(arr);
            arr[i] = Integer.MAX_VALUE;
           
         }
