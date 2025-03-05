@@ -1,4 +1,4 @@
-class LinkList {
+class LinkList{
   public static class Node {
     int data;
     Node next;
@@ -16,10 +16,11 @@ class LinkList {
   public static void insertFirst(int data) {
     // create a node
     Node newNode = new Node(data);
+    
     if (head == null) {
       head = tail = newNode;
-    
-      return;
+      
+       return;
     }
     // insert in the head side
     newNode.next = head;
