@@ -11,7 +11,7 @@ class LinkList{
 
   public static Node head;
   public static Node tail;
-  public static Node size;
+
 
   public static void insertFirst(int data) {
     // create a node

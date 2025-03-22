@@ -37,7 +37,7 @@ class GfG {
 
         // Traverse to the middle node
         while (count-- > 1) {
-            currNode = currNode.next;
+            currNode = currNode.next ;
         }
 
         // Insert the new node in the middle

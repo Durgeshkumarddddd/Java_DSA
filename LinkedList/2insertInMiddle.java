@@ -1,10 +1,10 @@
-class insertInMiddle {
+class insertInMiddle{
     public static class Node{
-        int data ;
-        Node next ;
+        int data;
+        Node next;
         public Node (int data){
-            this.data = data ;
-            this.next = null ;
+            this.data = data;
+            this.next = null;
         }
     }
     public static Node head ;
@@ -12,7 +12,7 @@ class insertInMiddle {
     public void insertInMiddle(int data, int pos){ 
         Node newNode = new Node(data);
         if(head == null){
-            head = tail = newNode ;
+            head = tail = newNode;
             return;
         }
         int i = 0;
