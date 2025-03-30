@@ -44,8 +44,7 @@ class SearchNode {
             return 0;
         }
         int idx = helperSearch(temp.next, key);
-        
-        if( idx < 0){
+         if( idx < 0){
             return -1;
         }
         return idx+1 ;

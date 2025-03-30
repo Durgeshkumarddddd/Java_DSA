@@ -12,8 +12,7 @@
     //         }
     //     } }
         
-    
-    static int[] strictlyGreater(int[] arr , int x){
+     static int[] strictlyGreater(int[] arr , int x){
        int count[] = new int[arr.length];
         for(int i = 0 ; i < arr.length ; i++){
                 if(arr[i] > x){

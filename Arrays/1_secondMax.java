@@ -4,7 +4,7 @@ import java.util.Scanner;
         int mx = Integer.MIN_VALUE ;
         for(int i = 0 ; i<arr.length ; i++){
             if(arr[i]>mx){
-                mx = arr[i] ;
+                mx = arr[i];
             }}
         return mx ;
     }
