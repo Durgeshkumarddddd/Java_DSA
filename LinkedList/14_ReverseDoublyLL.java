@@ -1,5 +1,6 @@
-class DoublyLL {
-   class Node {
+class ReverseDoublyLL {
+    
+    class Node {
         int data ;
         Node next ;
         Node prev ;
@@ -98,9 +99,30 @@ class DoublyLL {
         }
         System.out.println("null");
     }
+
+    // Reverse Linked List 
+    public void  reverseList(){
+        if(head == null || head.next == null){
+            return  ;
+        }
+        Node prev = null ;
+        Node curr = head ;
+        Node next ;
+    
+        while(curr != null){
+            next = curr.next ;
+            curr.next = prev ;
+            curr.prev = next ;
+
+            prev = curr ;
+            curr = next ;
+        }
+        head = prev ;
+        
+    }
     
     public static void main(String[] args){
-        DoublyLL dll = new DoublyLL();
+        ReverseDoublyLL dll = new ReverseDoublyLL();
         // dll.insertFirst(1);
         // dll.insertFirst(2);
         // dll.insertFirst(3);
@@ -111,7 +133,8 @@ class DoublyLL {
         dll.printList(); 
         // dll.RemoveLast(head);
         // dll.printList();
-        dll.RemoveFirst();
+        // dll.RemoveFirst();
+        dll.reverseList();
         dll.printList();
 
     }
