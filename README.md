@@ -1,4 +1,38 @@
-# Java_DSA
+# 🧠 DSA Series – Data Structures & Algorithms
+
+Welcome to the **DSA Series** – a comprehensive collection of Data Structures and Algorithms problems, explanations, and solutions. This repository is designed to help students and developers strengthen their DSA foundations and prepare for technical interviews.
+
+---
+
+## 📚 Topics Covered
+
+- Arrays & Strings
+- Linked Lists
+- Stacks & Queues
+- Trees (Binary Tree, BST, etc.)
+- Heaps & Hashing
+- Recursion & Backtracking
+- Sorting & Searching Algorithms
+- Graph Algorithms (BFS, DFS, Dijkstra’s, etc.)
+- Dynamic Programming
+- Greedy Algorithms
+- Bit Manipulation
+- Sliding Window & Two Pointers
+- Trie, Segment Tree, and more!
+
+---
+
+## 🛠️ Tech Stack
+
+- Language: `C++` / `Java` / `Python`
+- IDE: Any (VS Code / IntelliJ / Jupyter Notebook)
+- Platform Practice: LeetCode, HackerRank, GeeksforGeeks, CodeStudio
+
+---
+
+## 📁 Folder Structure
+
+
 
 2000 TOP COMPANIES HR EMAIL IDS: https://drive.google.com/drive/folders/1hJlxWGMr1UfV9UH84d_HjFP7InTMpPII
 <br>
