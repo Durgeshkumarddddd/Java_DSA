@@ -6,7 +6,7 @@ class PowerOfx {
             return x ;
         }
         int halfpowerSqr = power(x, n/2);
-        int fullpower = halfpowerSqr * halfpowerSqr ;
+        int fullpower = halfpowerSqr * halfpowerSqr;
 
         // case for odd 
         if (n % 2 != 0){
