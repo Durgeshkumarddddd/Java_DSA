@@ -15,6 +15,15 @@ class multiDimension {
          mainlist.add(list2);
          mainlist.add(list3);
 
+         for (int i = 0 ; i < mainlist.size() ; i++){
+            ArrayList getlist = mainlist.get(i);
+            System.out.print(getlist);
+            for ( int j = 0 ; j < getlist.size() ; j++){
+                System.out.print(getlist.get(j)+" ");
+            }
+            System.out.println();
+         }
+
          System.out.println(mainlist);
     }
 }
