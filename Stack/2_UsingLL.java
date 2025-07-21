@@ -1,5 +1,5 @@
 package Stack;
-// Implement Statck push and pop using Linked List
+// Implement Stack push and pop using Linked List
 
  class UsingLinkList {
    static class Node {
@@ -25,7 +25,7 @@ package Stack;
         if(head == null){
             head = newNode ;
         }
-        newNode.next = head ;
+        newNode.next = head;
         head = newNode ;
      }
 

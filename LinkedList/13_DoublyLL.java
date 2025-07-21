@@ -1,4 +1,4 @@
-class DoublyLL {
+  class DoublyLL {
    class Node {
         int data ;
         Node next ;

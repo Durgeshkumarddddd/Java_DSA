@@ -4,7 +4,7 @@ class newCode {
     static class stack {
         static ArrayList<Integer> list = new ArrayList<>() ;
         
-        boolean isEmpty(ArrayList<Integer> list)
+        public boolean isEmpty()
         {
             return list.size() == 0 ;
 
@@ -15,7 +15,7 @@ class newCode {
             System.out.println("push data is "+ data);
         }
         int pop (){
-            if ( isEmpty(list)){
+            if ( isEmpty()){
                 System.out.println("Stack is empty");
             }
             int top = list.get(list.size() - 1);
@@ -25,7 +25,7 @@ class newCode {
         }
 
         int  peak (){
-             if ( isEmpty(list)){
+             if ( isEmpty()){
                 System.out.println("Stack is empty");
             }
             return list.get(list.size() - 1);
@@ -38,9 +38,9 @@ class newCode {
         s.push(2);
         s.push(3);
 
-       System.out.println( s.pop());
-       System.out.println( s.pop());
-
+        while (!s.isEmpty()) {
+             
+        }
 
     }
 }
