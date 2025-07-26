@@ -1,46 +1,26 @@
-import java.util.ArrayList;
-class newCode {
-
-    static class stack {
-        static ArrayList<Integer> list = new ArrayList<>() ;
-        
-        public boolean isEmpty()
-        {
-            return list.size() == 0 ;
-
+import java.util.*;
+class New {
+    static void pushAtBottom(Stack<Integer> s , int data){
+        if (s.isEmpty()){
+           s.push(data);
+           return ;
         }
 
-        void push(int data){
-            list.add(data);
-            System.out.println("push data is "+ data);
-        }
-        int pop (){
-            if ( isEmpty()){
-                System.out.println("Stack is empty");
-            }
-            int top = list.get(list.size() - 1);
-            list.remove(list.size() - 1);
-            return top; 
-
-        }
-
-        int  peak (){
-             if ( isEmpty()){
-                System.out.println("Stack is empty");
-            }
-            return list.get(list.size() - 1);
-        }
+        int top =  s.pop();
+        pushAtBottom(s, data);
+        s.push(top);
     }
-
-    public static void main(String args[]){
-        stack s = new stack();
-        s.push(1);
-        s.push(2);
-        s.push(3);
-
-        while (!s.isEmpty()) {
-             
-        }
+    public static void main(String[] args){
+       Stack<Integer> s = new Stack<>();
+       System.out.println(s);
+       int n = 4;
+       for (int i = 0 ; i < n ; i++){
+        s.push(i);
+       }
+       while (!s.isEmpty()){
+        System.out.print(s.peek());
+        s.pop();
+       }
 
     }
 }
