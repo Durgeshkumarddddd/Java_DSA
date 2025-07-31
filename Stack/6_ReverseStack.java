@@ -3,7 +3,7 @@ class ReverseStack {
     public static void printStack(Stack<Integer> s){
       
         while (!s.isEmpty()){
-        System.out.print(s.pop());
+        System.out.print("pop element : "+s.pop());
        }
 
     }
@@ -34,6 +34,6 @@ class ReverseStack {
         }
         printStack(s);
         reverseStack(s );
-        printStack( s );
+        // printStack( s );
     }
 }
