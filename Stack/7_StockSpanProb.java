@@ -35,7 +35,7 @@ class StockSpanProblem {
 
 // ✅ Problem Statement:
 // Given an array price[] of size n, where price[i] denotes the stock price on day i, find the stock span span[i] for each day. The span of the stock's price today is defined as the maximum number of consecutive days (starting from today and going backward) for which the price of the stock was less than or equal to today's price.
-
+Y
 // ✅ Example:
 // Input: price[] = {100, 80, 60, 70, 60, 75, 85}
 // Output: span[] = {1, 1, 1, 2, 1, 4, 6}
